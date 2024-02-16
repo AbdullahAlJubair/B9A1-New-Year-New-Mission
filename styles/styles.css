@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----------Root Color ------------*/
+:root {
+    --redColor: #f00;
+    --blackColor: #070211;
+}
+
+header,
+main,
+.footerInner {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.redText {
+    color: var(--redColor);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+/* ---------Main Banner ---------------*/
+.banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-bottom: 120px;
+}
+
+.banner1 {
+    background-image: url('../assets/image/Banner-Image.png');
+}
+
+.banner1 div {
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(180deg, #100211 0%, rgba(7, 2, 17, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerTitle,
+.bannerText {
+    color: #fff;
+    font-family: "Merriweather", serif;
+}
+
+.bannerTitle {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.bannerText {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* ------------Offer Section ---------------*/
+.offSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.offTitle {
+    color: var(--redColor);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.offSubTitle {
+    color: var(--blackColor);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offSection div img {
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+/* ------------Banner2 Section ---------------*/
+.banner2 {
+    background-image: url('../assets/image/Vectorrr.png');
+}
+
+.banner2Content {
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 80px;
+}
+
+.banner2 .bannerTitle {
+    text-align: left;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.banner2 .bannerText {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.linkText {
+    margin-top: 50px;
+}
+
+.linkText a {
+    margin-top: 50px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Event Info */
+.eventInfo {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.eventInfo .infoDetails {
+    color: var(--blackColor);
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.infoTitle {
+    color: var(--redColor);
+}
+
+.btn {
+    margin-top: 50px;
+    padding: 16px 32px;
+    border: 0;
+    border-radius: 8px;
+    background: var(--redColor);
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Best Offer section */
+.bestSection {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 120px;
+}
+
+.bestSection .redText {
+    text-align: left;
+}
+
+.bestSection .part1 h4 {
+    color: var(--blackColor);
+    font-family: "Merriweather", serif;
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.bestSection .part1 p,
+.bestSection .part3 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.bestSection .part2 img {
+    width: 370px;
+    height: 370px;
+    border: 15px solid red;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.bestSection .part3 h4 {
+    color: var(--redColor);
+    font-family: "Inter", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.bestSection .part3 img {
+    margin-top: 40px;
+    width: 140px;
+    height: 140px;
+}
+
+/* Portfolio section */
+.portfolioBox {
+    padding: 40px;
+    margin-bottom: 120px;
+}
+
+.portfolioDetails {
+    margin-bottom: 50px;
+}
+
+.portfolioDetails .redText {
+    text-align: left;
+}
+
+.portfolioDetails h4 {
+    color: var(--blackColor);
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.portfolioDetails p {
+    width: 900px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolioImg {
+    position: relative;
+    cursor: pointer;
+    width: 378px;
+}
+
+.portfolioImg:hover .overlay {
+    display: flex;
+}
+
+.overlay {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 99%;
+    position: absolute;
+    background-color: #000000c0;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.overlay .btn {
+    margin-top: 0px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.portfolioImg img {
+    width: 100%;
+}
+
+/* Subscribe section */
+.subscribe {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 0 200px;
+    margin-bottom: 120px;
+}
+
+.subscribe img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.subscribe h3 {
+    color: var(--blackColor);
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.subscribe p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+#email {
+    width: 350px;
+    height: 50px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px 30px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+#subsBtn {
+    padding: 14px 24px;
+    border: 0;
+    background: var(--redColor);
+    color: #fff;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-left: -4px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+footer {
+    background-color: var(--blackColor);
+    padding: 50px 0;
+}
+
+.footerInner {
+    padding: 40px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footerInner hr {
+    height: 1px;
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact div {
+    width: 400px;
+}
+
+.linkBox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.linkBox p a,
+.contact div p,
+.copyright p {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
